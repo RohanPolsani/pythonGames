@@ -109,4 +109,5 @@ while(p.health > 0):
         break
     if not commandFound:
       print ("%s doesn't understand the suggestion.") % p.name
+      quit()
       
