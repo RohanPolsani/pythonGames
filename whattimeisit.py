@@ -45,6 +45,6 @@ time_now = time.localtime()
 #it's dark if the hour is later than or equal to the sunset time
 #or earlier than the sunrise time.
 if time_now.tm_hour >=dark[time_now.tm_mon] or time_now.tm_hour < light[time_now.tm_mon]:
-    print("Yes")
+    print("Yes, it is dark")
 else:
-    print("No")
+    print("No,it is not dark.")
